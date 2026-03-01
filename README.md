@@ -141,6 +141,12 @@ This project uses **synthetic data** for demonstration purposes. Results should 
 **Ebingiye Nelvin Agbozu**
 Environmental Science & Machine Learning Research Enthusiast
 
+Email: nelvinebingiye@gmail.com
+
+GitHub: *https://github.com/Nelvinebi
+
+LinkedIn: *https://www.linkedin.com/in/agbozu-ebi/
+
 ---
 
 ## ⭐ Acknowledgment
