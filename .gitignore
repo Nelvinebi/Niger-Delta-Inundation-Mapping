@@ -1,0 +1,39 @@
+# Data files (too large for GitHub)
+data/raw/*.tif
+data/raw/*.shp
+data/raw/*.shx
+data/raw/*.dbf
+data/raw/*.prj
+data/processed/*.csv
+
+# Model outputs (large binaries)
+outputs/models/*.pkl
+outputs/figures/*.png
+outputs/figures/*.tif
+outputs/figures/*.geojson
+outputs/figures/eda/*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Jupyter
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
