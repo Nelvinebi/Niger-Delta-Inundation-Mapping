@@ -11,7 +11,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Phase%201%20Complete-brightgreen?style=for-the-badge)
 
-> A machine learning pipeline that fuses **Sentinel-1 SAR backscatter**, **CHIRPS rainfall**, and **SRTM elevation** data to map surface water inundation across the **Niger Delta, Nigeria** — one of Africa's most flood-vulnerable regions — delivering GIS-ready outputs and an interactive dashboard for land use planning, wetland monitoring, and early-stage flood response.
+> A machine learning pipeline that fuses **Sentinel-1 SAR backscatter**, **CHIRPS rainfall**, and **SRTM elevation** data to map surface water inundation across the **Niger Delta, Nigeria** one of Africa's most flood-vulnerable regions delivering GIS-ready outputs and an interactive dashboard for land use planning, wetland monitoring, and early-stage flood response.
 
 </div>
 
