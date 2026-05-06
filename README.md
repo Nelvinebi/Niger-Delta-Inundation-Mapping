@@ -110,7 +110,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 - ✅ **LGA boundary overlay:** Maps annotated with Local Government Area boundaries for direct use by NEMA, SEMA, and state emergency management teams
 - ✅ **GIS-ready outputs:** Inundation polygons exported as GeoJSON and Shapefile, ready for integration with ArcGIS, QGIS, or web GIS portals
 - ✅ **Interactive Streamlit dashboard:** Adjustable probability threshold slider; side-by-side SAR vs. inundation comparison; downloadable output panel
-- ✅ **9 EDA figures:** Feature distributions, correlation matrices, feature importance comparison, AUC evolution, class balance, spatial CV results, and raster statistics — all publication-ready
+- ✅ **9 EDA figures:** Feature distributions, correlation matrices, feature importance comparison, AUC evolution, class balance, spatial CV results, and raster statistics all publication-ready
 - ✅ **Phase 2 ready:** Pipeline architecture designed for temporal extension; additional GEE exports (dry season, pre-flood, post-flood) slot directly into the existing framework
 - ✅ **Honest, deployable science:** No data leakage, no impossible AUC scores a physically grounded pipeline suitable for operational flood monitoring
 
