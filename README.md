@@ -112,7 +112,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 - ✅ **Interactive Streamlit dashboard:** Adjustable probability threshold slider; side-by-side SAR vs. inundation comparison; downloadable output panel
 - ✅ **9 EDA figures:** Feature distributions, correlation matrices, feature importance comparison, AUC evolution, class balance, spatial CV results, and raster statistics — all publication-ready
 - ✅ **Phase 2 ready:** Pipeline architecture designed for temporal extension; additional GEE exports (dry season, pre-flood, post-flood) slot directly into the existing framework
-- ✅ **Honest, deployable science:** No data leakage, no impossible AUC scores — a physically grounded pipeline suitable for operational flood monitoring
+- ✅ **Honest, deployable science:** No data leakage, no impossible AUC scores a physically grounded pipeline suitable for operational flood monitoring
 
 ---
 
@@ -161,7 +161,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 ---
 
 ### 🔹 Feature Importance Comparison — Phase 1 vs. Phase 2
-> Side-by-side Random Forest feature importance bars; SAR backscatter dominates Phase 1 (direct water signal), while SAR change magnitude leads in Phase 2 — elevation importance increases as terrain becomes a stronger flood-routing predictor in the temporal model
+> Side-by-side Random Forest feature importance bars; SAR backscatter dominates Phase 1 (direct water signal), while SAR change magnitude leads in Phase 2 elevation importance increases as terrain becomes a stronger flood-routing predictor in the temporal model
 
 ![Feature Importance Comparison](outputs/figures/eda/feature_importance_comparison.png)
 
@@ -182,14 +182,14 @@ All data is sourced from **real satellite observations and reanalysis products**
 ---
 
 ### 🔹 Spatial Cross-Validation Results
-> AUC scores per spatial fold (elevation band); stable performance across low-lying creeks, mid-elevation floodplains, and upland areas demonstrates the model generalises beyond the training region — critical for operational deployment across unobserved LGAs
+> AUC scores per spatial fold (elevation band); stable performance across low-lying creeks, mid-elevation floodplains, and upland areas demonstrates the model generalises beyond the training region critical for operational deployment across unobserved LGAs
 
 ![Spatial CV Results](outputs/figures/eda/spatial_cv_results.png)
 
 ---
 
 ### 🔹 Raster Statistics Summary
-> Input data quality dashboard: SAR VV backscatter range and mean, CHIRPS rainfall distribution, SRTM elevation histogram, and pixel resolution comparison — validates data integrity before model training
+> Input data quality dashboard: SAR VV backscatter range and mean, CHIRPS rainfall distribution, SRTM elevation histogram, and pixel resolution comparison validates data integrity before model training
 
 ![Raster Stats Summary](outputs/figures/eda/raster_stats_summary.png)
 
