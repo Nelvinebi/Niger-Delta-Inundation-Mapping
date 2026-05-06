@@ -427,19 +427,19 @@ shapely>=2.0.0
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — free to use, adapt, and build upon for research, education, and environmental analytics.
+This project is licensed under the **MIT License** free to use, adapt, and build upon for research, education, and environmental analytics.
 See the [LICENSE](LICENSE) file for full details.
 
 ---
 
 ## 🙌 Acknowledgements
 
-- **ESA Copernicus Programme** — for open access to Sentinel-1 SAR imagery via Google Earth Engine
-- **Google Earth Engine** — for cloud-based geospatial data access and processing infrastructure
+- **ESA Copernicus Programme** for open access to Sentinel-1 SAR imagery via Google Earth Engine
+- **Google Earth Engine** for cloud-based geospatial data access and processing infrastructure
 - **NASA / USGS** — for the SRTM digital elevation model
-- **Climate Hazards Group (UCSB)** — for the CHIRPS v2.0 quasi-global daily rainfall dataset
-- **GADM / National Bureau of Statistics Nigeria** — for Nigeria LGA administrative boundary data
-- **NEMA & SEMA** — whose operational needs for LGA-level inundation maps directly shaped this pipeline's outputs and stakeholder interface
+- **Climate Hazards Group (UCSB)** for the CHIRPS v2.0 quasi-global daily rainfall dataset
+- **GADM / National Bureau of Statistics Nigeria** for Nigeria LGA administrative boundary data
+- **NEMA & SEMA** whose operational needs for LGA-level inundation maps directly shaped this pipeline's outputs and stakeholder interface
 
 ---
 
