@@ -23,7 +23,7 @@ The Niger Delta is among the world's most ecologically complex and flood-prone r
 
 Traditional flood monitoring in the region is constrained by cloud cover (optical satellites fail during peak rainy seasons), limited ground-based gauge networks, and the absence of automated pipelines capable of processing SAR imagery at operational scale. Existing global flood products are too coarse (250 m–1 km) to delineate Local Government Area (LGA)-level flood extents needed by NEMA and SEMA for resource allocation.
 
-There is a critical need for a **reproducible, open-source pipeline** that leverages Synthetic Aperture Radar — unaffected by cloud cover fused with rainfall and terrain data, to produce actionable, stakeholder-ready inundation maps of the Niger Delta.
+There is a critical need for a **reproducible, open-source pipeline** that leverages Synthetic Aperture Radar unaffected by cloud cover fused with rainfall and terrain data, to produce actionable, stakeholder-ready inundation maps of the Niger Delta.
 
 ---
 
