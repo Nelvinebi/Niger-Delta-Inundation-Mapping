@@ -119,7 +119,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 ## 📸 Visualisations
 
 ### 🔹 4-Panel Inundation Analysis — Phase 1 (Single Date)
-> SAR VV backscatter (top-left), CHIRPS accumulated rainfall (top-right), SRTM elevation (bottom-left), and Random Forest inundation probability (bottom-right) with LGA boundary overlay — the complete input-to-output view of the Phase 1 pipeline
+> SAR VV backscatter (top-left), CHIRPS accumulated rainfall (top-right), SRTM elevation (bottom-left), and Random Forest inundation probability (bottom-right) with LGA boundary overlay the complete input-to-output view of the Phase 1 pipeline
 
 ![Inundation Analysis](outputs/figures/inundation_analysis.png)
 
@@ -224,13 +224,13 @@ All data is sourced from **real satellite observations and reanalysis products**
 
 ### Key Insights
 
-- 🔍 **SAR is the decisive feature:** Sentinel-1 VV backscatter is the top-ranked feature in both Phase 1 and Phase 2 models — smooth water surfaces produce specular reflection and characteristically low backscatter (< −15 dB), creating a strong, physically grounded signal that generalises well across the Delta's varied terrain
-- 🔍 **Elevation as flood router:** SRTM elevation is the second most important feature across both phases — low-lying areas (<5 m ASL) in the coastal Niger Delta floodplain show markedly higher inundation probabilities, consistent with the known flood pathway along distributary channels
+- 🔍 **SAR is the decisive feature:** Sentinel-1 VV backscatter is the top-ranked feature in both Phase 1 and Phase 2 models smooth water surfaces produce specular reflection and characteristically low backscatter (< −15 dB), creating a strong, physically grounded signal that generalises well across the Delta's varied terrain
+- 🔍 **Elevation as flood router:** SRTM elevation is the second most important feature across both phases low-lying areas (<5 m ASL) in the coastal Niger Delta floodplain show markedly higher inundation probabilities, consistent with the known flood pathway along distributary channels
 - 🔍 **Temporal differencing resolves the permanent-water ambiguity:** A major limitation of single-date SAR classification is the inability to distinguish permanent rivers and creeks from genuine flood inundation. Phase 2's change magnitude (post − pre SAR) resolves this — permanent water bodies show near-zero change while flood-driven inundation shows strong negative change in VV
-- 🔍 **Spatial CV reveals generalisation boundaries:** AUC is highest in mid-elevation floodplain folds (where training data is densest) and slightly lower in upland folds — flagging areas where the model should be applied with greater caution and where additional training samples would most improve performance
-- 🔍 **CHIRPS rainfall adds context, not dominance:** Rainfall accumulation is the weakest individual predictor in both phases — a physically sensible result, since SAR directly observes the inundation outcome rather than its cause. Rainfall becomes more valuable in Phase 3 where the goal is forward prediction before inundation has occurred
-- 🔍 **89 MB GeoJSON confirms dense polygon coverage:** The full-scene vectorised output captures detailed creek-level inundation geometry across the Delta — operationally useful for LGA-level flood extent reporting to NEMA and state emergency management agencies
-- 🔍 **Pipeline is cloud-cover immune:** By design, the Sentinel-1 SAR-based approach operates through the dense cloud cover that renders MODIS, Landsat, and Sentinel-2 optical imagery unusable during the Niger Delta wet season — the exact period when flood mapping is most urgently needed
+- 🔍 **Spatial CV reveals generalisation boundaries:** AUC is highest in mid-elevation floodplain folds (where training data is densest) and slightly lower in upland folds flagging areas where the model should be applied with greater caution and where additional training samples would most improve performance
+- 🔍 **CHIRPS rainfall adds context, not dominance:** Rainfall accumulation is the weakest individual predictor in both phases a physically sensible result, since SAR directly observes the inundation outcome rather than its cause. Rainfall becomes more valuable in Phase 3 where the goal is forward prediction before inundation has occurred
+- 🔍 **89 MB GeoJSON confirms dense polygon coverage:** The full-scene vectorised output captures detailed creek-level inundation geometry across the Delta operationally useful for LGA-level flood extent reporting to NEMA and state emergency management agencies
+- 🔍 **Pipeline is cloud-cover immune:** By design, the Sentinel-1 SAR-based approach operates through the dense cloud cover that renders MODIS, Landsat, and Sentinel-2 optical imagery unusable during the Niger Delta wet season the exact period when flood mapping is most urgently needed
 
 ---
 
@@ -240,7 +240,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 
 The dashboard features an interactive inundation viewer:
 - **Overview:** 4-panel map (SAR / Rainfall / Elevation / Inundation) with LGA boundary overlay
-- **Threshold Control:** Adjustable probability slider — tune the inundation threshold for conservative vs. liberal flood extent reporting
+- **Threshold Control:** Adjustable probability slider tune the inundation threshold for conservative vs. liberal flood extent reporting
 - **Comparison:** Side-by-side SAR backscatter vs. inundation prediction for rapid visual validation
 - **Download:** Export current view as PNG for stakeholder reports
 
@@ -317,7 +317,7 @@ The dashboard features an interactive inundation viewer:
 
 ```bash
 # Python 3.9+
-# Google Earth Engine account (free) — required for data acquisition
+# Google Earth Engine account (free) required for data acquisition
 # Authenticate GEE on first run:
 earthengine authenticate
 ```
