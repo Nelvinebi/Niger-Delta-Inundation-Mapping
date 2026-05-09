@@ -105,7 +105,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 
 - ✅ **Cloud-penetrating SAR data:** Sentinel-1 VV backscatter is unaffected by the dense cloud cover that renders optical satellites unusable during Niger Delta flood season
 - ✅ **Multi-source feature fusion:** SAR + CHIRPS rainfall + SRTM elevation combined into a unified raster stack, capturing both surface expression and flood-driving conditions
-- ✅ **Spatial cross-validation:** Model tested across elevation bands to prevent data leakage and validate generalisation to unseen terrain — a critical step for operational deployment
+- ✅ **Spatial cross-validation:** Model tested across elevation bands to prevent data leakage and validate generalisation to unseen terrain a critical step for operational deployment
 - ✅ **SMOTE class balancing:** Handles inherent imbalance between water and non-water pixels without discarding majority-class samples
 - ✅ **LGA boundary overlay:** Maps annotated with Local Government Area boundaries for direct use by NEMA, SEMA, and state emergency management teams
 - ✅ **GIS-ready outputs:** Inundation polygons exported as GeoJSON and Shapefile, ready for integration with ArcGIS, QGIS, or web GIS portals
@@ -126,7 +126,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 ---
 
 ### 🔹 Temporal Change Detection — Phase 2 (Multi-Date)
-> Side-by-side comparison of dry season SAR (August 2022) vs. wet season SAR (October 2022), with change magnitude (post − pre) and final inundation classification — distinguishing true flood events from permanent water bodies
+> Side-by-side comparison of dry season SAR (August 2022) vs. wet season SAR (October 2022), with change magnitude (post − pre) and final inundation classification distinguishing true flood events from permanent water bodies
 
 ![Temporal Comparison](outputs/figures/temporal_comparison.png)
 
