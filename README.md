@@ -401,7 +401,7 @@ shapely>=2.0.0
 **Future Improvements:**
 - 🛰️ Pull **4-date SAR stack** (dry season Jan 2022, pre-flood Aug 2022, wet season Oct 2022, post-flood Nov 2022) to enable robust temporal change detection and distinguish permanent water from flood events
 - 🌧️ Integrate **GFS/ECMWF rainfall forecasts** and **NIHSA river discharge gauges** as predictive features for Phase 3 forward-looking flood risk estimation
-- 📡 Build an **automated GEE pipeline** triggered after each major rainfall event — export → predict → alert — replacing the current manual workflow
+- 📡 Build an **automated GEE pipeline** triggered after each major rainfall event export → predict → alert replacing the current manual workflow
 - 📲 Implement **Africa's Talking SMS alerting** to notify NEMA/SEMA officials when inundation exceeds population-area thresholds in specific LGAs
 - 🗺️ Add **Sentinel-2 optical validation** during dry-season clear-sky windows to cross-validate SAR-derived water masks against NDWI (Normalised Difference Water Index)
 - 🤖 Explore **deep learning segmentation** (U-Net on SAR patches) for sub-field-level inundation delineation, capturing creek-bank geometry lost in pixel-wise Random Forest classification
@@ -436,7 +436,7 @@ See the [LICENSE](LICENSE) file for full details.
 
 - **ESA Copernicus Programme** for open access to Sentinel-1 SAR imagery via Google Earth Engine
 - **Google Earth Engine** for cloud-based geospatial data access and processing infrastructure
-- **NASA / USGS** — for the SRTM digital elevation model
+- **NASA / USGS** for the SRTM digital elevation model
 - **Climate Hazards Group (UCSB)** for the CHIRPS v2.0 quasi-global daily rainfall dataset
 - **GADM / National Bureau of Statistics Nigeria** for Nigeria LGA administrative boundary data
 - **NEMA & SEMA** whose operational needs for LGA-level inundation maps directly shaped this pipeline's outputs and stakeholder interface
