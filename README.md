@@ -384,8 +384,8 @@ shapely>=2.0.0
 ## ⚠️ Limitations & Future Work
 
 **Current Limitations:**
-- The Phase 1 pipeline uses a **single SAR acquisition date** (October 2022), meaning it cannot distinguish permanent rivers and tidal creeks from genuine flood inundation — this ambiguity is resolved in Phase 2 via temporal differencing
-- **Training labels** are derived from SAR thresholding rather than independent field survey or aerial validation data — ground-truth validation from NEMA field teams would improve label quality
+- The Phase 1 pipeline uses a **single SAR acquisition date** (October 2022), meaning it cannot distinguish permanent rivers and tidal creeks from genuine flood inundation this ambiguity is resolved in Phase 2 via temporal differencing
+- **Training labels** are derived from SAR thresholding rather than independent field survey or aerial validation data ground-truth validation from NEMA field teams would improve label quality
 - **CHIRPS rainfall** at ~5 km resolution is the coarsest input layer; it captures regional rainfall patterns but misses convective storm cells that can trigger localised flash flooding
 - **No real-time data pipeline** — currently requires manual GEE export and local execution; operational deployment requires automation (scheduled GEE tasks + cloud processing)
 - The **SRTM DEM** dates from 2000 and does not reflect recent land subsidence, which is significant in parts of the Niger Delta due to hydrocarbon extraction
