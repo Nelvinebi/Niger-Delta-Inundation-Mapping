@@ -152,21 +152,21 @@ All data is sourced from **real satellite observations and reanalysis products**
 
 ---
 
-### 🔹 Correlation Matrix — Phase 1 Features
+### 🔹 Correlation Matrix - Phase 1 Features
 > Pairwise Pearson correlation heatmap for SAR VV, CHIRPS rainfall, and SRTM elevation; low multicollinearity between features validates the independence of each data source
 
 ![Phase 1 Correlation Matrix](outputs/figures/eda/phase_1_correlation_matrix.png)
 
 ---
 
-### 🔹 Correlation Matrix — Phase 2 Features
+### 🔹 Correlation Matrix - Phase 2 Features
 > Correlation structure of Phase 2 change-magnitude features; shift in dominant correlations from Phase 1 reflects the additional discriminative power gained from temporal differencing
 
 ![Phase 2 Correlation Matrix](outputs/figures/eda/phase_2_correlation_matrix.png)
 
 ---
 
-### 🔹 Feature Importance Comparison — Phase 1 vs. Phase 2
+### 🔹 Feature Importance Comparison - Phase 1 vs. Phase 2
 > Side-by-side Random Forest feature importance bars; SAR backscatter dominates Phase 1 (direct water signal), while SAR change magnitude leads in Phase 2 elevation importance increases as terrain becomes a stronger flood-routing predictor in the temporal model
 
 ![Feature Importance Comparison](outputs/figures/eda/feature_importance_comparison.png)
@@ -180,7 +180,7 @@ All data is sourced from **real satellite observations and reanalysis products**
 
 ---
 
-### 🔹 Class Balance Evolution — Raw vs. SMOTE-Balanced
+### 🔹 Class Balance Evolution - Raw vs. SMOTE-Balanced
 > Bar chart showing the raw water/non-water pixel ratio vs. the SMOTE-balanced training set proportions across both phases; confirms class imbalance was handled consistently without discarding majority-class terrain samples
 
 ![Class Balance Evolution](outputs/figures/eda/class_balance_evolution.png)
