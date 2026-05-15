@@ -15,6 +15,12 @@
 
 </div>
 
+<div align="center">
+
+[![Live Dashboard](https://img.shields.io/badge/🚀%20Click%20for%20Live%20Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)]()
+
+</div>
+
 ---
 
 ## 📌 Problem
