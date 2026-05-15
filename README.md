@@ -124,14 +124,14 @@ All data is sourced from **real satellite observations and reanalysis products**
 
 ## 📸 Visualisations
 
-### 🔹 4-Panel Inundation Analysis — Phase 1 (Single Date)
+### 🔹 4-Panel Inundation Analysis Phase 1 (Single Date)
 > SAR VV backscatter (top-left), CHIRPS accumulated rainfall (top-right), SRTM elevation (bottom-left), and Random Forest inundation probability (bottom-right) with LGA boundary overlay the complete input-to-output view of the Phase 1 pipeline
 
 ![Inundation Analysis](outputs/figures/inundation_analysis.png)
 
 ---
 
-### 🔹 Temporal Change Detection — Phase 2 (Multi-Date)
+### 🔹 Temporal Change Detection Phase 2 (Multi-Date)
 > Side-by-side comparison of dry season SAR (August 2022) vs. wet season SAR (October 2022), with change magnitude (post − pre) and final inundation classification distinguishing true flood events from permanent water bodies
 
 ![Temporal Comparison](outputs/figures/temporal_comparison.png)
