@@ -1,4 +1,4 @@
-# 🌊 Niger Delta Inundation Mapping System (NDIMS) — Nigeria
+# 🌊 Niger Delta Inundation Mapping System (NDIMS) - Nigeria
 
 <div align="center">
 
@@ -138,14 +138,14 @@ All data is sourced from **real satellite observations and reanalysis products**
 
 ---
 
-### 🔹 Feature Distributions by Class — Phase 1
+### 🔹 Feature Distributions by Class - Phase 1
 > Histogram distributions of SAR backscatter, CHIRPS rainfall, and SRTM elevation separated by inundated (1) vs. non-inundated (0) class labels; shows clear separability in SAR and elevation, justifying the ML approach
 
 ![Phase 1 Feature Distributions](outputs/figures/eda/phase_1_feature_distributions.png)
 
 ---
 
-### 🔹 Feature Distributions by Class — Phase 2 (Change Magnitude)
+### 🔹 Feature Distributions by Class - Phase 2 (Change Magnitude)
 > Same distribution analysis applied to Phase 2 change-magnitude features (pre→post SAR delta, rainfall, elevation); greater intraclass separation confirms temporal differencing improves signal quality
 
 ![Phase 2 Feature Distributions](outputs/figures/eda/phase_2_feature_distributions.png)
